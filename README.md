@@ -1,7 +1,7 @@
 # PyPraxes
 A place for my Python Praxes (practices, putting to action plural).
 <pre>
-____           ____                          
+ ____           ____                          
 |  _ \ _   _   |  _ \ _ __ __ ___  _____  ___
 | |_) | | | |  | |_) | '__/ _` \ \/ / _ \/ __|
 |  __/| |_| |  |  __/| | | (_| |>  <  __/\__ \
