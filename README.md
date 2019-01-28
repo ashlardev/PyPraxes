@@ -1,13 +1,13 @@
 # PyPraxes
 A place for my Python Praxes (practices, putting to action plural).
-<div><p>
+<pre>
 ____           ____                          
 |  _ \ _   _   |  _ \ _ __ __ ___  _____  ___
 | |_) | | | |  | |_) | '__/ _` \ \/ / _ \/ __|
 |  __/| |_| |  |  __/| | | (_| |>  <  __/\__ \
 |_|    \__, |  |_|   |_|  \__,_/_/\_\___||___/
        |___/
-</p></div>
+</pre>
 
 <br>
 <br>
