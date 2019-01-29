@@ -13,7 +13,6 @@ def encode(message):
             newPosition2 = (newPosition + key2) % 26
             newPosition3 = (newPosition2 + key3) % 26
             newCharacter = alphabet[newPosition3]
-            #print('The new character is:', newCharacter)
             newMessage += newCharacter
         else:
             newMessage += character
@@ -33,21 +32,12 @@ def decode(newMessage):
             newPosition2 = (newPosition3 - key2) % 26
             newPosition = (newPosition2 - key) % 26
             newCharacter = alphabet[newPosition]
-            #print('The new character is:', newCharacter)
             oldMessage += newCharacter
         else:
             oldMessage += character
     return oldMessage
     print(oldMessage)
-#print('Your original message is', message)
-#print('Your new message is', newMessage)
-#print('Your old message is', oldMessage)
-#def main():
-    #encode(message)
-    #print(message)
-    #decode(newMessage)
-    #print(newMessage)
-    #print(oldMessage)
+
 newMessage = encode(message)
 oldMessage = decode(newMessage)
 print(newMessage)
